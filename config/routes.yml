@@ -1,0 +1,44 @@
+join:
+  path: / 
+  resource: join.php
+  template: default.php
+review: 
+  path: /review/{username}/{password}/{url}
+  resource: review.php
+  template: default.php
+discover: 
+  path: /discover/{username}/{password}/{url}
+  resource: discover.php
+  template: default.php
+crave: 
+  path: /crave/{username}/{password}
+  resource: crave.php
+  template: default.php
+list: 
+  path: /list
+  resource: list.php
+  template: default.php
+exhausted:
+  path: /exhausted
+  resource: exhausted.php
+  template: default.php
+redirect:
+  path: /redirect/{type}/{message}/{url} 
+  resource: redirect.php
+  template: default.php
+profile:
+  path: /profile/{username}/{password} 
+  resource: profile.php
+  template: default.php
+manual:
+  path: /manual/{username}/{password}
+  resource: manual.php
+  template: default.php
+rss:
+  path: /rss/{username}
+  resource: rss.php
+  template: default.php
+404:
+  path: /404
+  resource: not_found.php
+  template: default.php
